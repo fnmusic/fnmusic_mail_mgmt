@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c323f2b-4c0f-4352-9d1d-1dc63ecd0286" name="Default Changelist" comment="" />
+    <list default="true" id="8c323f2b-4c0f-4352-9d1d-1dc63ecd0286" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/api/MailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/api/NotificationsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/api/SMSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/RedisCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/messaging/AuditLogPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/messaging/MailListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/messaging/NotificationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/messaging/SMSListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/repository/CacheRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/repository/SMSRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/TokenAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/SMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/utils/MailTemplateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fnmusic_mail_mgmt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/MailManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/FNMusicPushNotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/MailSenderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/MongoDBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/MongoDBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/RabbitMQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/IMessageListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/MessageListenerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/MailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/repository/MailRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MongoDocumentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/utils/MailTemplateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fnmusic/mail/management/test/MailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fnmusic/push/notification/service/test/MailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fnmusic/mail/management/MailManagementApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fnmusic/mail/management/config/MailConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fnmusic/mail/management/config/RabbitMQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fnmusic/mail/management/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fnmusic/mail/management/listener/IMessageListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fnmusic/mail/management/listener/MessageListenerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fnmusic/mail/management/services/MailSenderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fnmusic/mail/management/services/MongoDocumentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fnmusic/mail/management/utils/MailTemplateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fnmusic/mail/management/test/MailTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,46 +69,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="644">
+              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/AuthenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="72" column="80" selection-start-line="72" selection-start-column="80" selection-end-line="72" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/MailRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/TokenAuthenticationProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/MessageListenerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MailService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="83">
+              <caret line="6" column="82" lean-forward="true" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -65,32 +106,68 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/IMessageListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/RabbitMQConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/config/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/MailConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/utils/MailTemplateUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/fnmusic/mail/management/test/MailTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MailSenderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MailService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/Repository/ObjectRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/Repository/ObjectRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/MongoDBConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/Repository/MailRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/Repository/MailRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/Repository/AbstractObjectRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/Repository/IObjectRepository.java" />
         <option value="$PROJECT_DIR$/../fnmusic_base/src/main/java/com/fnmusic/base/Repository/IObjectRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MailDBService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/MailManagementApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/MessageListenerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/MailListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/FailedMailRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/MailConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/utils/MailTemplateUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fnmusic/mail/management/test/MailTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/MailRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/MailSenderConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/CacheRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/IMailRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/IMongoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/RedisCacheConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/messaging/MailListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/MongoDBConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/SMSRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/NotificationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/NotificationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/messaging/SMSListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/SMSService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/messaging/NotificationListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/api/SMSController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/api/NotificationsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/api/MailController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/security/AuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/security/TokenAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/TokenService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/repository/NotificationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/NotificationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/api/NotificationsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/api/SMSController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/TokenService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/AuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/MailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/messaging/AuditLogPublisher.java" />
+        <option value="$PROJECT_DIR$/src/main/config/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/api/MailController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/TokenAuthenticationProvider.java" />
       </list>
     </option>
   </component>
@@ -99,128 +176,147 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fnmusic_mail_mgmt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="fnmusic-mail-mgmt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fnmusic_mail_mgmt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="fnmusic-mail-mgmt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="fnmusic_mail_mgmt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="130" />
-    <option name="width" value="1440" />
-    <option name="height" value="780" />
+    <option name="x" value="-8" />
+    <option name="y" value="3" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fnmusic_mail_mgmt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fnmusic-push-notification-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="fnmusic_mail_mgmt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fnmusic_audit_trail" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fnmusic.push.notification.service.security" />
+      <recent name="com.fnmusic.mail.management.config" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fnmusic.mail.management.security" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,9 +330,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MailManagementApplication">
-    <configuration name="MailManagementApplication" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.fnmusic.mail.management.MailManagementApplication" />
+  <component name="RunManager" selected="Application.fnmusic_push-notification_service">
+    <configuration name="fnmusic_push-notification_service" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.fnmusic.push.notification.service.FNMusicPushNotificationService" />
       <module name="fnmusic_mail_mgmt" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,6 +354,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.fnmusic_push-notification_service" />
+      <item itemvalue="JUnit.MailTest.sendMessage" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -305,10 +405,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -318,12 +418,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Azure Explorer" order="8" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32850242" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39978564" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Debug" order="6" visible="true" weight="0.39774558" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -337,51 +437,80 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.17750533" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.17700455" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18910742" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Azure Explorer" order="8" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32850242" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39774558" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290461" />
+      <window_info anchor="bottom" id="Docker" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.17700455" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/MessageListenerImpl.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/MailService.java</url>
+          <line>87</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/AuthenticationFilter.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/AuthenticationFilter.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/AuthenticationFilter.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic_base/0.0.1-SNAPSHOT/fnmusic_base-0.0.1-SNAPSHOT.jar!/com/fnmusic/base/models/Mail.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/MailManagementApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/IMessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic_base/0.0.1-SNAPSHOT/fnmusic_base-0.0.1-SNAPSHOT.jar!/org/springframework/util/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -392,151 +521,375 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.4.RELEASE/spring-rabbit-2.1.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/MessageListenerAdapter.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.4.RELEASE/spring-rabbit-2.1.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/MessageListenerAdapter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.4.RELEASE/spring-rabbit-2.1.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/SimpleMessageListenerContainer.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/Repository/MailRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../fnmusic_base/src/main/java/com/fnmusic/base/repository/AbstractObjectRepository.java" />
+    <entry file="file://$PROJECT_DIR$/../fnmusic_base/src/main/java/com/fnmusic/base/repository/IObjectRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MailDBService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/IMessageListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/FailedMailRepository.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.1.7.RELEASE/spring-context-support-5.1.7.RELEASE.jar!/org/springframework/mail/javamail/JavaMailSender.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        <state relative-caret-position="84">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/RabbitMQConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/utils/MailTemplateUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state relative-caret-position="56">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.4.RELEASE/spring-rabbit-2.1.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/SimpleMessageListenerContainer.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fnmusic/push/notification/service/test/MailTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="614" selection-start-line="614" selection-end-line="614" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fnmusic/mail/management/test/MailTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="392">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/config/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic_base/0.0.1-SNAPSHOT/fnmusic_base-0.0.1-SNAPSHOT.jar!/com/fnmusic/base/messaging/impl/AbstractListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="154">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MongoDocumentService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic_base/0.0.1-SNAPSHOT/fnmusic_base-0.0.1-SNAPSHOT.jar!/com/fnmusic/base/models/Mail.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/utils/MailTemplateUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.1.7.RELEASE/spring-context-support-5.1.7.RELEASE.jar!/org/springframework/mail/javamail/MimeMessageHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="126" column="575" selection-start-line="126" selection-start-column="575" selection-end-line="126" selection-end-column="575" />
+        <state relative-caret-position="198">
+          <caret line="296" column="16" selection-start-line="296" selection-start-column="16" selection-end-line="296" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/MongoDBConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic-base/0.0.1-SNAPSHOT/fnmusic-base-0.0.1-SNAPSHOT.jar!/com/fnmusic/base/repository/impl/AbstractCacheRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        <state relative-caret-position="98">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/MailSenderConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/Repository/MailRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/dao/MailDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/IMongoRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/repository/CacheRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/config/MailConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="112">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fnmusic_base/src/main/java/com/fnmusic/base/repository/AbstractObjectRepository.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic-base/0.0.1-SNAPSHOT/fnmusic-base-0.0.1-SNAPSHOT.jar!/com/fnmusic/base/messaging/impl/AbstractListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="98">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fnmusic_base/src/main/java/com/fnmusic/base/repository/IObjectRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/RedisCacheConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="98" selection-start-line="18" selection-start-column="98" selection-end-line="18" selection-end-column="98" />
+        <state relative-caret-position="420">
+          <caret line="39" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/services/MailService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/FNMusicPushNotificationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="140">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/MongoDBConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/listener/MessageListenerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/repository/SMSRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="252">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/repository/MailRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/messaging/NotificationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/messaging/SMSListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/SMSService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="196">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/mail/management/repository/MailRepository.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic-base/0.0.1-SNAPSHOT/fnmusic-base-0.0.1-SNAPSHOT.jar!/com/fnmusic/base/models/Notification.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="182">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/repository/NotificationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/api/NotificationsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/api/SMSController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/NotificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/TokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic-base/0.0.1-SNAPSHOT/fnmusic-base-0.0.1-SNAPSHOT.jar!/com/fnmusic/base/models/Mail.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/services/MailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/messaging/MailListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic-base/0.0.1-SNAPSHOT/fnmusic-base-0.0.1-SNAPSHOT.jar!/com/fnmusic/base/messaging/impl/AbstractPublisher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic-base/0.0.1-SNAPSHOT/fnmusic-base-0.0.1-SNAPSHOT.jar!/com/fnmusic/base/repository/impl/AbstractMongoRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/messaging/AuditLogPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/RabbitMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/api/MailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic-base/0.0.1-SNAPSHOT/fnmusic-base-0.0.1-SNAPSHOT.jar!/org/springframework/security/access/AccessDeniedException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fnmusic/fnmusic-base/0.0.1-SNAPSHOT/fnmusic-base-0.0.1-SNAPSHOT.jar!/org/springframework/security/core/AuthenticationException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/AuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="72" column="80" selection-start-line="72" selection-start-column="80" selection-end-line="72" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fnmusic/push/notification/service/security/TokenAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="6" column="82" lean-forward="true" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -557,6 +910,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -579,6 +933,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -590,6 +945,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>fnmusic_mail_mgmt</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -601,6 +957,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
